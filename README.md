@@ -1,3 +1,70 @@
+## 🚀 How to Run the Application
+
+### Prerequisites
+- Java 11 or higher
+- Maven 3.6 or higher
+
+### Build and Run Steps
+
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd allo-backend-test
+   ```
+
+2. **Build the project:**
+   ```bash
+   mvn clean install
+   ```
+
+3. **Run the application:**
+   ```bash
+   mvn spring-boot:run
+   ```
+   
+   The application will start on `http://localhost:8080` (default port).
+
+4. **Run tests:**
+   ```bash
+   mvn test
+   ```
+
+## 📡 API Endpoints
+
+### Available Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| **GET** | `/api/finance/data/latest_idr_rates` | Get latest exchange rates relative to IDR with USD_BuySpread_IDR calculation |
+| **GET** | `/api/finance/data/historical_idr_usd` | Get historical IDR to USD exchange rates (2024-01-01 to 2024-01-05) |
+| **GET** | `/api/finance/data/supported_currencies` | Get list of all supported currencies |
+
+### Endpoint Details
+
+**Base URL:** `http://localhost:8080`
+
+**Endpoint Pattern:** `GET /api/finance/data/{resourceType}`
+
+Where `{resourceType}` can be:
+- `latest_idr_rates`
+- `historical_idr_usd`
+- `supported_currencies`
+
+### Example Usage
+
+```bash
+# Get latest IDR rates
+curl http://localhost:8080/api/finance/data/latest_idr_rates
+
+# Get historical IDR-USD rates
+curl http://localhost:8080/api/finance/data/historical_idr_usd
+
+# Get supported currencies
+curl http://localhost:8080/api/finance/data/supported_currencies
+```
+
+---
+
 # Allo Bank Backend Developer Take-Home Test
 
 Thank you for applying to our team! This take-home test is designed to evaluate your practical skills in building **production-ready** Spring Boot applications within a finance domain, focusing on architectural patterns and complex data handling.
