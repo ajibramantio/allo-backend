@@ -1,0 +1,4 @@
+com/allo/strategy/impl/SupportedCurrenciesStrategyTest.class
+com/allo/strategy/impl/LatestIdrRatesStrategyTest.class
+com/allo/strategy/impl/HistoricalIdrUsdStrategyTest.class
+com/allo/runner/DataInitializationRunnerIntegrationTest.class

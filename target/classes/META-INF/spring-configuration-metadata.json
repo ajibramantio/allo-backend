@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "frankfurter.api",
+      "type": "com.allo.config.FrankfurterApiProperties",
+      "sourceType": "com.allo.config.FrankfurterApiProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "frankfurter.api.base-url",
+      "type": "java.lang.String",
+      "sourceType": "com.allo.config.FrankfurterApiProperties"
+    },
+    {
+      "name": "frankfurter.api.connect-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.allo.config.FrankfurterApiProperties"
+    },
+    {
+      "name": "frankfurter.api.read-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.allo.config.FrankfurterApiProperties"
+    }
+  ],
+  "hints": []
+}

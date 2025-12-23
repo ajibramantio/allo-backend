@@ -1,0 +1,15 @@
+com/allo/config/WebClientFactoryBean.class
+META-INF/spring-configuration-metadata.json
+com/allo/runner/DataInitializationRunner.class
+com/allo/dto/FrankfurterLatestResponse.class
+com/allo/AlloBackendTestApplication.class
+com/allo/service/InMemoryDataStore.class
+com/allo/config/FrankfurterApiProperties.class
+com/allo/dto/FrankfurterCurrenciesResponse.class
+com/allo/strategy/impl/HistoricalIdrUsdStrategy.class
+com/allo/strategy/impl/LatestIdrRatesStrategy.class
+com/allo/strategy/IDRDataFetcher.class
+com/allo/dto/FrankfurterHistoricalResponse.class
+com/allo/dto/LatestIdrRatesResponse.class
+com/allo/controller/FinanceDataController.class
+com/allo/strategy/impl/SupportedCurrenciesStrategy.class

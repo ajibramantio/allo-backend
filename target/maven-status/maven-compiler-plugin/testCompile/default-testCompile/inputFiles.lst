@@ -1,0 +1,4 @@
+/home/aji/Documents/work/alloTest/allo-backend-test/src/test/java/com/allo/strategy/impl/SupportedCurrenciesStrategyTest.java
+/home/aji/Documents/work/alloTest/allo-backend-test/src/test/java/com/allo/strategy/impl/HistoricalIdrUsdStrategyTest.java
+/home/aji/Documents/work/alloTest/allo-backend-test/src/test/java/com/allo/strategy/impl/LatestIdrRatesStrategyTest.java
+/home/aji/Documents/work/alloTest/allo-backend-test/src/test/java/com/allo/runner/DataInitializationRunnerIntegrationTest.java

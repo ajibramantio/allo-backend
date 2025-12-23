@@ -1,0 +1,14 @@
+/home/aji/Documents/work/alloTest/allo-backend-test/src/main/java/com/allo/config/WebClientFactoryBean.java
+/home/aji/Documents/work/alloTest/allo-backend-test/src/main/java/com/allo/strategy/impl/LatestIdrRatesStrategy.java
+/home/aji/Documents/work/alloTest/allo-backend-test/src/main/java/com/allo/dto/FrankfurterHistoricalResponse.java
+/home/aji/Documents/work/alloTest/allo-backend-test/src/main/java/com/allo/AlloBackendTestApplication.java
+/home/aji/Documents/work/alloTest/allo-backend-test/src/main/java/com/allo/service/InMemoryDataStore.java
+/home/aji/Documents/work/alloTest/allo-backend-test/src/main/java/com/allo/config/FrankfurterApiProperties.java
+/home/aji/Documents/work/alloTest/allo-backend-test/src/main/java/com/allo/strategy/IDRDataFetcher.java
+/home/aji/Documents/work/alloTest/allo-backend-test/src/main/java/com/allo/strategy/impl/HistoricalIdrUsdStrategy.java
+/home/aji/Documents/work/alloTest/allo-backend-test/src/main/java/com/allo/controller/FinanceDataController.java
+/home/aji/Documents/work/alloTest/allo-backend-test/src/main/java/com/allo/dto/FrankfurterLatestResponse.java
+/home/aji/Documents/work/alloTest/allo-backend-test/src/main/java/com/allo/runner/DataInitializationRunner.java
+/home/aji/Documents/work/alloTest/allo-backend-test/src/main/java/com/allo/dto/LatestIdrRatesResponse.java
+/home/aji/Documents/work/alloTest/allo-backend-test/src/main/java/com/allo/dto/FrankfurterCurrenciesResponse.java
+/home/aji/Documents/work/alloTest/allo-backend-test/src/main/java/com/allo/strategy/impl/SupportedCurrenciesStrategy.java
