@@ -9,9 +9,6 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Mono;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.*;
@@ -46,18 +43,13 @@ class SupportedCurrenciesStrategyTest {
     @Test
     void testFetchData_Success() {
         // Arrange
-        FrankfurterCurrenciesResponse mockResponse = new FrankfurterCurrenciesResponse();
-        Map<String, String> currencies = new HashMap<>();
-        currencies.put("USD", "United States Dollar");
-        currencies.put("EUR", "Euro");
-        currencies.put("IDR", "Indonesian Rupiah");
-        mockResponse.setCurrencies(currencies);
+        String jsonResponse = "{\"USD\":\"United States Dollar\",\"EUR\":\"Euro\",\"IDR\":\"Indonesian Rupiah\"}";
 
         when(webClient.get()).thenReturn(requestHeadersUriSpec);
         when(requestHeadersUriSpec.uri(anyString())).thenReturn(requestHeadersSpec);
         when(requestHeadersSpec.retrieve()).thenReturn(responseSpec);
-        when(responseSpec.bodyToMono(FrankfurterCurrenciesResponse.class))
-                .thenReturn(Mono.just(mockResponse));
+        when(responseSpec.bodyToMono(String.class))
+                .thenReturn(Mono.just(jsonResponse));
 
         // Act
         FrankfurterCurrenciesResponse result = (FrankfurterCurrenciesResponse) strategy.fetchData().block();
@@ -76,7 +68,7 @@ class SupportedCurrenciesStrategyTest {
         when(webClient.get()).thenReturn(requestHeadersUriSpec);
         when(requestHeadersUriSpec.uri(anyString())).thenReturn(requestHeadersSpec);
         when(requestHeadersSpec.retrieve()).thenReturn(responseSpec);
-        when(responseSpec.bodyToMono(FrankfurterCurrenciesResponse.class))
+        when(responseSpec.bodyToMono(String.class))
                 .thenReturn(Mono.error(new RuntimeException("Network failure")));
 
         // Act & Assert

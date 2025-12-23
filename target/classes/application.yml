@@ -12,4 +12,4 @@ server:
 
 spring:
   application:
-    name: allo-backend-test
+    name: allo-backend
