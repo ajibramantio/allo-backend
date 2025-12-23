@@ -9,7 +9,7 @@
 1. **Clone the repository:**
    ```bash
    git clone <repository-url>
-   cd allo-backend-test
+   cd allo-backend
    ```
 
 2. **Build the project:**
@@ -28,6 +28,22 @@
    ```bash
    mvn test
    ```
+
+## 📌 Personalization Note
+
+**GitHub Username:** `ajibramantio`
+
+**Spread Factor Calculation:**
+1. Convert to lowercase: `"ajibramantio"`
+2. Sum of ASCII values:
+   - 'a' = 97, 'j' = 106, 'i' = 105, 'b' = 98, 'r' = 114, 'a' = 97, 'm' = 109, 'a' = 97, 'n' = 110, 't' = 116, 'i' = 105, 'o' = 111
+   - **Sum = 1265**
+3. Spread Factor = (1265 % 1000) / 100000.0 = **0.00265**
+
+**Formula Application:**
+- For latest IDR rates, if USD rate from API = 0.000064
+- USD_BuySpread_IDR = (1 / 0.000064) × (1 + 0.00265)
+- USD_BuySpread_IDR = 15625 × 1.00265 = **15,666.40625**
 
 ## 📡 API Endpoints
 

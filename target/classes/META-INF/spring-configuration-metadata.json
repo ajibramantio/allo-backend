@@ -15,12 +15,14 @@
     {
       "name": "frankfurter.api.connect-timeout",
       "type": "java.lang.Integer",
-      "sourceType": "com.allo.config.FrankfurterApiProperties"
+      "sourceType": "com.allo.config.FrankfurterApiProperties",
+      "defaultValue": 0
     },
     {
       "name": "frankfurter.api.read-timeout",
       "type": "java.lang.Integer",
-      "sourceType": "com.allo.config.FrankfurterApiProperties"
+      "sourceType": "com.allo.config.FrankfurterApiProperties",
+      "defaultValue": 0
     }
   ],
   "hints": []

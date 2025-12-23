@@ -1,9 +1,12 @@
+com/allo/strategy/impl/SupportedCurrenciesStrategy$1.class
 com/allo/config/WebClientFactoryBean.class
 META-INF/spring-configuration-metadata.json
 com/allo/runner/DataInitializationRunner.class
 com/allo/dto/FrankfurterLatestResponse.class
+com/allo/config/JacksonConfig.class
 com/allo/AlloBackendTestApplication.class
 com/allo/service/InMemoryDataStore.class
+com/allo/config/JacksonConfig$DoubleSerializer.class
 com/allo/config/FrankfurterApiProperties.class
 com/allo/dto/FrankfurterCurrenciesResponse.class
 com/allo/strategy/impl/HistoricalIdrUsdStrategy.class
