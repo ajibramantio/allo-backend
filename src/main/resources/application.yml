@@ -1,0 +1,16 @@
+frankfurter:
+  api:
+    base-url: https://api.frankfurter.app
+    connect-timeout: 5000
+    read-timeout: 10000
+
+github:
+  username: aji
+
+server:
+  port: 8080
+
+spring:
+  application:
+    name: allo-backend-test
+
